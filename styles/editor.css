@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 249, 199);
+}
+
+body{
+    height: 300px;
+    margin: 20px;
+    background-color: #051D3B;
+    border-radius: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+/*CONFIG CABEÇALHO*/
+
+header{
+    background-color: transparent;
+    height: 56px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logotipo img{
+    width: 135px;
+    margin-bottom: -10px;
+}
+
+.barraPesquisa{
+    width: 752px;
+    height: 56px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+
+}
+
+.barraPesquisa p{
+
+    background-color: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    padding-left: 20px;
+
+    color: #FFFFFF;
+    opacity: 0.64;
+
+}
+
+.fotoUsuario img{
+    width: 135px;
+    margin-bottom: -30px;
+}
+
+/*FIM CONFIG CABEÇALHO*/
+/*CONFIG CORPO PÁGINA DESKTOP*/
+
+.corpo{
+
+    justify-content: space-between;
+}
+
+.corpo, .navegacao, .centro, .coluna{
+    display: inline-block;
+    background-color: transparent;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.navegacao{
+    width: 250px;
+    height: 100px;
+    background-color: transparent;
+    
+    display: inline-block;
+}
+
+.itensNavegacao{
+    background-color: transparent;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.itensNavegacao img {
+    width: 35px;
+}
+
+img, li {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: transparent;
+}
+
+.centro{
+    
+    width: 250px;
+    height: 100px;
+    background-color: blue
+}
+
+li, a{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.coluna{
+    
+    width: 250px;
+    height: 100px;
+    background-color: green
+}
+
+/*table 702*/
+
+
+/*mobile 125*/
+
