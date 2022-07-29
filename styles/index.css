@@ -49,6 +49,11 @@ header{
 
 }
 
+.fotoUsuario img{
+    width: 135px;
+    margin-bottom: -30px;
+}
+
 /*table 702*/
 
 
