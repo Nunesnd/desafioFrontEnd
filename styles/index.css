@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 249, 199);
+}
+
+body{
+    height: 300px;
+    margin: 20px;
+    background-color: #051D3B;
+    border-radius: 40px;
+}
+
+header{
+    background-color: transparent;
+    height: 56px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logotipo img{
+    width: 135px;
+    margin-bottom: -6px;
+}
+
+
+/*table 702*/
+
+
+/*mobile 125*/
+
