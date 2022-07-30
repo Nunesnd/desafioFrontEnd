@@ -5,8 +5,8 @@
 }
 
 body{
-    height: 300px;
     margin: 20px;
+    height: 500px;
     background-color: #051D3B;
     border-radius: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
@@ -132,6 +132,47 @@ li, a{
 
 #descricaoProjeto{
     height: 65px;
+}
+
+.selLing{
+    margin-top: 15px;
+    background-color: transparent;
+}
+
+#selectLing{
+    width: 90%;
+    height: 35px;
+}
+
+.opcao{
+    background-color: #858585;
+    color: rgb(53, 53, 53);
+}
+
+.corFundo{
+    margin-top: 10px;
+    background-color: rgb(9, 255, 0);
+    border-radius: 8px;
+    width: 88%;
+    height: 30px;
+    border-style: double;
+}
+
+.btnSalvar{
+    width: 90%;
+    height: 45px;
+    margin-top: 25px;
+    background-color: blue;
+    border-radius: 8px;
+    border-style: none;
+    color: aqua;
+    font-size: large;
+}
+
+.btnSalvar:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: blue;
 }
 
 /*table 702*/
