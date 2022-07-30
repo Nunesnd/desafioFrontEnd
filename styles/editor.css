@@ -30,26 +30,13 @@ header{
 
 .barraPesquisa{
     width: 752px;
-    height: 56px;
-    margin-top: 10px;
-    background: rgba(255, 255, 255, 0.16);
-    border-radius: 8px;
-
+    background-color: transparent;
 }
 
-.barraPesquisa p{
-
-    background-color: transparent;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 50px;
-    padding-left: 20px;
-
-    color: #FFFFFF;
-    opacity: 0.64;
-
+#barraPesquisa{
+    height: 56px;
+    margin-top: 10px;
+    
 }
 
 .fotoUsuario img{
@@ -96,6 +83,12 @@ img, li {
     background-color: transparent;
 }
 
+li, a{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
 .centro{
     
     width: 250px;
@@ -103,17 +96,42 @@ img, li {
     background-color: blue
 }
 
-li, a{
-    color: white;
-    text-decoration: none;
-    background-color: transparent;
-}
+/*coluna central - campo desenvolvimento código*/
 
-.coluna{
-    
+
+/*coluna direita - detalhes de projeto*/
+
+.detalhesProjeto{
     width: 250px;
     height: 100px;
-    background-color: green
+
+    background-color: transparent;    
+    display: inline-block;
+}
+
+.detalhesProjeto, h3{
+    background-color: transparent;
+    color: white;
+
+}
+
+.campo{
+    width: 90%;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-style: none;
+    margin-top: 5px;
+    padding-left: 3px;
+    font-size: medium;
+    color: rgb(170, 169, 169);
+}
+
+#tituloProjeto{
+    height: 30px;
+}
+
+#descricaoProjeto{
+    height: 65px;
 }
 
 /*table 702*/
